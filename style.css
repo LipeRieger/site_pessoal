@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nexa';
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url(./nexa/Nexa-Heavy.ttf);
+}
+
+@font-face {
+    font-family: 'NexaLight';
+    src: url(./nexa/Nexa-ExtraLight.ttf);
+}
+
+/*header*/
+
+header h1{
+    font-size: 50px;
+    width: 100%;
+    height: 190px;
+    background-position-y: -270px;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 7px black;
+    padding-top: 120px;
+    background-image: url(https://scontent.fpoa6-1.fna.fbcdn.net/v/t31.18172-8/13301511_1002147246506453_8528733019839282250_o.jpg?stp=dst-jpg_p960x960&_nc_cat=110&ccb=1-7&_nc_sid=9267fe&_nc_ohc=mPhUPmbZH1EAX_5sMpK&_nc_ht=scontent.fpoa6-1.fna&oh=00_AfAAMUkbp5JxmvKdNIkPtFmbdriF4q41bBI3o4yrArXejg&oe=64FAFA12);
+}
+
+header div{
+    background-color: rgb(41, 41, 41);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+header div a{
+    font-family: 'NexaLight';
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+header div a:hover{
+    color: gray;
+}
+
+header div input{
+    font-family: 'NexaLight';
+    height: 22px;
+    width: 200px;
+    margin-top: 9px;
+    padding: 5px;
+}
+
+/*main*/
+
+main article{
+    float: left;
+    width: 57%;
+    height: 820px;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+main article h2{
+    font-size: 30px;
+}
+
+main article h3{
+    font-size: 20px;
+    color: brown;
+}
+
+main article p{
+    margin-top: 20px;
+}
+
+main aside{
+    float: left;
+    width: 33%;
+    height: 820px;
+    border-radius: 15px;
+    margin-right: 2%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.635);
+}
+
+main aside h4{
+    background-color: rgb(211, 211, 211);
+    border-radius: 15px;
+    height: 45px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+main aside ul{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+main aside ul li{
+    transition: 0.2s;
+}
+
+main aside ul li:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+main aside h5{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+main aside input{
+    width: 80%;
+    margin-left: 10%;
+}
+
+main aside iframe{
+    margin-top: 30px;
+    margin-left: 43px;
+}
+
+/*footer*/
+
+footer{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(41, 41, 41);
+}
+
+footer ul{
+    float: left;
+    width: 30%;
+    color: white;
+    padding-top: 40px;
+}
+
+footer ul:first-child{
+    margin-left: 28%;
+}
+
+footer div{
+    float: left;
+    font-family: 'NexaLight';
+    height: 40px;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer ul li{
+    transition: 0.2s;
+}
+
+footer ul li:hover{
+    color: gray;
+    cursor: pointer;
+}
